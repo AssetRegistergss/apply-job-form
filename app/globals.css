@@ -1,0 +1,38 @@
+:root{
+    --p: #7450FF;
+    --s: #ED508F;
+}
+*{font-family: var(--font-font);}
+
+body{
+    background-image: url('/public/design.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+.p{background-color: var(--p);color: white;}
+.s{background-color: var(--s) !important;color: white;}
+.text-p{color: var(--p);}
+.text-s{color: var(--s);}
+.active{
+    font-weight: bold;
+    color:var(--p)
+}
+button{font-weight: bold;}
+
+._input{
+    border: none !important;
+    padding: 0.5rem 1rem;
+}
+._input:focus{
+    background-color: #fdfcff80 !important;
+}
+.question{
+    margin: 2rem 0;
+    display: block; 
+    border-left: 0.2rem solid var(--p);
+    padding: 1rem;
+    background-color: #f7f7f7;
+    color: #7450FF !important;
+}
